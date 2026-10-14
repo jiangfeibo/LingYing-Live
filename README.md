@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/editorial-cover.svg" alt="LingYing Live / LingYing Studio — 灵影" width="100%">
+  <img src="assets/editorial-cover.svg" alt="灵影 · LingYing Live — 数字人对话与视频" width="100%">
 </p>
 
 <h1 align="center">灵影</h1>
 
-<p align="center">LingYing Live · LingYing Studio</p>
+<p align="center">LingYing Live · 数字人对话与视频</p>
 
 <p align="center"><strong>将回答、声音与人物画面放进同一个对话空间。</strong></p>
 
@@ -13,7 +13,7 @@
 <p align="center">
   <a href="#01-lingying-live数字人对话工作台">体验</a> ·
   <a href="#02-形象声音与模型各有位置">能力</a> ·
-  <a href="#03-lingying-studio数字人视频制作">制作</a> ·
+  <a href="#03-数字人视频制作">制作</a> ·
   <a href="#04-重构带来的价值">优势</a> ·
   <a href="#05-当前能力与后续方向">进展</a>
 </p>
@@ -24,7 +24,7 @@
 
 文字回答擅长解释问题，声音让内容更容易被听见，人物画面为交流提供可见的讲述者。将它们组合起来，才能形成数字人对话的完整体验。
 
-**灵影面向文字、语音与数字人视频交互。** 中文统一使用“灵影”；英文以 **LingYing Live** 表示对话方向，以 **LingYing Studio** 表示视频制作方向。
+**灵影（LingYing Live）面向文字、语音与数字人视频交互。** 本项目涵盖数字人对话与视频生成；数字人课堂生成属于另一个项目 LingYing Studio。两个项目的中文名称均为“灵影”。
 
 在 LingYing Live 中，用户选择角色与模型连接后，可以输入问题、处理语音、聆听回答，并在已接通的数字人视频链路中观看人物讲述。重构版本围绕对话、数字人、音色库、制作和模型服务重新组织工作空间，让日常交流与服务配置各有清晰入口。
 
@@ -90,9 +90,9 @@
 
 这一设计承接 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) 的流式人像生成方向。项目已有 Pro 输出与网页播放记录；具体首帧等待、整轮响应和并发能力仍取决于语言模型、配音、视频推理和网络条件，不能将“支持分块播放”直接解释为任意硬件上都能即时回应。
 
-## 03 LingYing Studio：数字人视频制作
+## 03 数字人视频制作
 
-LingYing Studio 面向数字人视频制作。使用一段文字或已有录音，选择人物与输出设置，组织一次视频制作任务，让数字人成为内容讲述者。它适合知识讲解、课程片段、产品说明和内容展示等应用方向。
+持续交流之外，LingYing Live 也面向数字人视频生成。使用一段文字或已有录音，选择人物与输出设置，组织一次视频制作任务，让数字人成为内容讲述者。它适合知识讲解、课程片段、产品说明和内容展示等应用方向。
 
 <p align="center">
   <img src="assets/04-video-production-preview.png" alt="视频制作界面预览：文字或音频、角色选择、输出设置与任务列表" width="100%">
@@ -134,7 +134,7 @@ LingYing Studio 面向数字人视频制作。使用一段文字或已有录音�
 
 接下来，我们将继续完善真实媒体任务、声音与角色的管理、设备交互和持久记录。在具体应用中，学习陪伴、知识问答、虚拟讲述者和服务接待都值得探索；专业内容的可靠性仍需由知识来源、模型能力与实际评估支撑。
 
-如果目标是从教学材料出发制作完整课程，可查看独立项目 [Classroom Generation](https://github.com/maolinqi/Classroom-Generation-Showcase)。灵影聚焦交流与人物呈现，课堂生成聚焦内容组织和课程交付，两者通过能力适配保持各自的产品与运行边界。
+如果目标是从教学材料出发制作完整课程，可查看另一个灵影项目 [**LingYing Studio**](https://github.com/maolinqi/LingYing-Studio-Showcase)。本项目 LingYing Live 聚焦数字人实时对话与视频生成，LingYing Studio 聚焦课堂生成、内容组织和课程交付，两者通过能力适配保持各自的产品与运行边界。
 
 ---
 
@@ -144,4 +144,4 @@ LingYing Studio 面向数字人视频制作。使用一段文字或已有录音�
 
 数字人视频使用 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) 等现有能力，回答与声音依赖实际配置的服务。各模型、服务和第三方组件的贡献及许可归其原作者；本项目工作集中在重构工作台、服务适配、配置管理与媒体播放组织。
 
-<p align="center"><sub>灵影 · 让交流拥有声音与可见的讲述者。</sub></p>
+<p align="center"><sub>灵影 · LingYing Live · 让交流拥有声音与可见的讲述者。</sub></p>
