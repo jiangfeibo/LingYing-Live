@@ -10,7 +10,7 @@
 
 **灵影 Live（LingYing Live）将文字问答、语音与数字人视频连接到同一个对话工作台，让用户围绕角色展开交流。** 面向学习问答、知识讲解与虚拟讲述，项目正在探索更有临场感的 AI 交互，并逐步完善持续交流和视频制作体验。
 
-<p><a href="#01-先看已有成果">已有成果</a> · <a href="#02-三个核心亮点">核心亮点</a> · <a href="#03-先把两个场景做好">应用前景</a> · <a href="#04-从交流到内容制作">视频制作</a> · <a href="#05-已有开发中与规划">项目进展</a></p>
+<p><a href="#01-先看已有成果">已有成果</a> · <a href="#02-三个核心亮点">核心亮点</a> · <a href="#03-先把两个场景做好">应用前景</a> · <a href="#04-从交流到内容制作">视频制作</a></p>
 
 ## 01 先看已有成果
 
@@ -32,6 +32,23 @@
 ### 让声音与人物画面保持一致
 
 已有播放器将音频与视频放在同一播放时钟上，片段到达后逐步播放，缓冲不足时一起等待和恢复。对用户而言，目标是让听到的声音与看到的人物保持一致，减少媒体错位带来的阅读和观看中断。
+
+<details>
+<summary><strong>查看角色、声音与模型连接界面</strong></summary>
+
+<p align="center"><img src="assets/01-conversation-concept.png" alt="角色选择与新建对话设计" width="100%"></p>
+<p align="center"><sub>图 1 · 新建对话设计图。</sub></p>
+
+<p align="center"><img src="assets/03-avatar-library-concept.png" alt="数字人角色管理设计" width="100%"></p>
+<p align="center"><sub>图 3 · 角色管理设计图，部分声音待接入。</sub></p>
+
+<p align="center"><img src="assets/02-voice-library.png" alt="官方声音、TTS 筛选与试听入口" width="100%"></p>
+<p align="center"><sub>图 2 · 音色库界面预览，克隆声音按实际后端支持接入。</sub></p>
+
+<p align="center"><img src="assets/05-model-connection-concept.png" alt="模型连接、API 地址与模型选择" width="100%"></p>
+<p align="center"><sub>图 5 · 模型连接设计图。</sub></p>
+
+</details>
 
 ## 03 先把两个场景做好
 
@@ -61,44 +78,3 @@
 <p align="center"><sub>图 4 · 制作流程预览，独立页面尚未完成真实生成接入。</sub></p>
 
 已有数字人引擎能够生成片段；这一独立页面目前用于展示任务组织和恢复交互。后续将让页面进度对应真实作业，让成果入口取得实际视频。
-
-## 05 已有、开发中与规划
-
-| 状态 | 当前范围 |
-| :--- | :--- |
-| **已有** | 重构工作台、角色编辑与预览、回答 API 与流式文字、百度配音和识别、Pro 人物输出与播放器接入记录。 |
-| **开发中** | 独立视频制作的完整生产接入，角色与对话对象的服务端持久化，以及持续交流和设备体验的完善。 |
-| **规划与待验收** | 真实整轮连续演示、首帧与端到端等待测量、多轮和并发评估、回声与插话验收；克隆声音、角色知识文件等扩展按后端支持逐步接入。 |
-
-流式播放为较早开始观看提供基础，实际等待仍来自回答、配音、视频推理与网络。当前没有完整连续交互录屏，也没有统一协议测量的稳定延迟或多人并发承诺。
-
-### 技术怎样服务体验
-
-回答使用用户配置的 DeepSeek API 或兼容接口，语音使用已接通的百度服务，人物视频沿用已有 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) Pro 链路。模型连接集中管理，播放器复用已有音画同步和缓冲恢复机制。具体模型是否可用，以有效连接与实际请求为准。
-
-连接元数据与模型选择可以保留；当前前端的 API 密钥和额外请求头保留在页面内存，刷新后需要重新提供有效凭据。独立制作页的演示进度和下载配置，不作为实际 MP4。
-
-<details>
-<summary><strong>展开界面图库：角色、声音与模型服务</strong></summary>
-
-<p align="center"><img src="assets/01-conversation-concept.png" alt="角色选择与新建对话设计" width="100%"></p>
-<p align="center"><sub>图 1 · 新建对话设计图。</sub></p>
-
-<p align="center"><img src="assets/03-avatar-library-concept.png" alt="数字人角色管理设计" width="100%"></p>
-<p align="center"><sub>图 3 · 角色管理设计图，部分声音待接入。</sub></p>
-
-<p align="center"><img src="assets/02-voice-library.png" alt="官方声音、TTS 筛选与试听入口" width="100%"></p>
-<p align="center"><sub>图 2 · 音色库界面预览，克隆声音按实际后端支持接入。</sub></p>
-
-<p align="center"><img src="assets/05-model-connection-concept.png" alt="模型连接、API 地址与模型选择" width="100%"></p>
-<p align="center"><sub>图 5 · 模型连接设计图。</sub></p>
-
-</details>
-
----
-
-中文名称统一为“灵影”，本项目英文名称为 **LingYing Live**；数字人课堂生成项目为 **LingYing Studio**。公开仓库发布文章、展示图片与演示素材，项目实现源码、权重、配置和用户数据保持私有。
-
-动漫封面为 AI 生成的概念插画，参考其中的界面素材；实际产品结果以正文截图与视频为准。旧界面名称对应品牌统一前的素材。第三方组件与素材权利说明见 [NOTICE.md](NOTICE.md)。
-
-<p align="center"><sub>灵影 Live · 让回答拥有声音与可见的讲述者。</sub></p>
