@@ -81,7 +81,7 @@
 
 ## 04 从交流到内容制作
 
-除了对话，灵影 Live 还面向数字人视频生成：使用文字或已有录音，选择人物与输出设置，组织一次制作任务。它与侧重完整课程的 [灵影 Studio](https://github.com/maolinqi/LingYing-Studio-Showcase) 分工不同，Live 聚焦人物交互与讲述，Studio 聚焦教学材料、课程编辑与课程交付。
+除了对话，灵影 Live 还面向数字人视频生成：使用文字或已有录音，选择人物与输出设置，组织一次制作任务。它与侧重完整课程的 [灵影 Studio](https://github.com/jiangfeibo/LingYing-Studio) 分工不同，Live 聚焦人物交互与讲述，Studio 聚焦教学材料、课程编辑与课程交付。
 
 <p align="center"><img src="assets/04-video-production-preview.png" alt="灵影 Live 视频制作流程：文字或音频、角色与输出设置" width="100%"></p>
 <p align="center"><sub>图 4 · 制作流程预览，独立页面尚未完成真实生成接入。</sub></p>
