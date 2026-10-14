@@ -1,31 +1,35 @@
 <p align="center">
-  <img src="assets/editorial-cover.svg" alt="CyberVerse — Product Journal" width="100%">
+  <img src="assets/editorial-cover.svg" alt="LingYing Live / LingYing Studio — 灵影" width="100%">
 </p>
 
-<h1 align="center">CyberVerse · 数字人对话与视频</h1>
+<h1 align="center">灵影</h1>
+
+<p align="center">LingYing Live · LingYing Studio</p>
 
 <p align="center"><strong>将回答、声音与人物画面放进同一个对话空间。</strong></p>
 
 <p align="center">重构版本介绍 · 角色与声音 · 模型连接 · 视频制作<br>2026 年 10 月 14 日 · 公开展示仓库，项目实现闭源</p>
 
 <p align="center">
-  <a href="#01-面向持续对话的数字人工作台">体验</a> ·
+  <a href="#01-lingying-live数字人对话工作台">体验</a> ·
   <a href="#02-形象声音与模型各有位置">能力</a> ·
-  <a href="#03-从对话走向视频制作">制作</a> ·
+  <a href="#03-lingying-studio数字人视频制作">制作</a> ·
   <a href="#04-重构带来的价值">优势</a> ·
   <a href="#05-当前能力与后续方向">进展</a>
 </p>
 
 ---
 
-## 01 面向持续对话的数字人工作台
+## 01 LingYing Live：数字人对话工作台
 
 文字回答擅长解释问题，声音让内容更容易被听见，人物画面为交流提供可见的讲述者。将它们组合起来，才能形成数字人对话的完整体验。
 
-**CyberVerse 面向文字、语音与数字人视频交互。** 用户选择角色与模型连接后，可以输入问题、处理语音、聆听回答，并在已接通的数字人视频链路中观看人物讲述。重构版本围绕对话、数字人、音色库、制作和模型服务重新组织工作空间，让日常交流与服务配置各有清晰入口。
+**灵影面向文字、语音与数字人视频交互。** 中文统一使用“灵影”；英文以 **LingYing Live** 表示对话方向，以 **LingYing Studio** 表示视频制作方向。
+
+在 LingYing Live 中，用户选择角色与模型连接后，可以输入问题、处理语音、聆听回答，并在已接通的数字人视频链路中观看人物讲述。重构版本围绕对话、数字人、音色库、制作和模型服务重新组织工作空间，让日常交流与服务配置各有清晰入口。
 
 <p align="center">
-  <img src="assets/06-conversation-preview.png" alt="CyberVerse 重构界面预览：文字对话、语音操作与右侧数字人画面" width="100%">
+  <img src="assets/06-conversation-preview.png" alt="灵影重构界面预览：文字对话、语音操作与右侧数字人画面" width="100%">
 </p>
 <p align="center"><sub>图 6 · 重构界面预览。截图当时右侧为静态形象，画面已标注“视频未生成”；界面图本身不代表一次实时视频执行结果。</sub></p>
 
@@ -86,9 +90,9 @@
 
 这一设计承接 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) 的流式人像生成方向。项目已有 Pro 输出与网页播放记录；具体首帧等待、整轮响应和并发能力仍取决于语言模型、配音、视频推理和网络条件，不能将“支持分块播放”直接解释为任意硬件上都能即时回应。
 
-## 03 从对话走向视频制作
+## 03 LingYing Studio：数字人视频制作
 
-持续交流之外，数字人也可以作为内容讲述者：使用一段文字或已有录音，选择人物与输出设置，组织一次视频制作任务。它适合知识讲解、课程片段、产品说明和内容展示等应用方向。
+LingYing Studio 面向数字人视频制作。使用一段文字或已有录音，选择人物与输出设置，组织一次视频制作任务，让数字人成为内容讲述者。它适合知识讲解、课程片段、产品说明和内容展示等应用方向。
 
 <p align="center">
   <img src="assets/04-video-production-preview.png" alt="视频制作界面预览：文字或音频、角色选择、输出设置与任务列表" width="100%">
@@ -130,14 +134,14 @@
 
 接下来，我们将继续完善真实媒体任务、声音与角色的管理、设备交互和持久记录。在具体应用中，学习陪伴、知识问答、虚拟讲述者和服务接待都值得探索；专业内容的可靠性仍需由知识来源、模型能力与实际评估支撑。
 
-如果目标是从教学材料出发制作完整课程，可查看独立项目 [Classroom Generation](https://github.com/maolinqi/Classroom-Generation-Showcase)。CyberVerse 聚焦交流与人物呈现，课堂生成聚焦内容组织和课程交付，两者通过能力适配保持各自的产品与运行边界。
+如果目标是从教学材料出发制作完整课程，可查看独立项目 [Classroom Generation](https://github.com/maolinqi/Classroom-Generation-Showcase)。灵影聚焦交流与人物呈现，课堂生成聚焦内容组织和课程交付，两者通过能力适配保持各自的产品与运行边界。
 
 ---
 
 ### 展示范围与技术来源
 
-本仓库仅公开项目介绍和用户提供的界面素材，不公开本项目实现源码、模型权重、部署配置、用户数据或凭据。图 1、3、5 是视觉设计素材；图 2、4、6 是界面预览截图，已精确裁去浏览器栏。详见 [展示素材与权利说明](NOTICE.md)。
+本仓库仅公开项目介绍和用户提供的界面素材，不公开本项目实现源码、模型权重、部署配置、用户数据或凭据。图 1、3、5 是视觉设计素材；图 2、4、6 是界面预览截图，已精确裁去浏览器栏。图中旧名称对应品牌统一前的界面素材。详见 [展示素材与权利说明](NOTICE.md)。
 
 数字人视频使用 [SoulX-FlashHead](https://github.com/Soul-AILab/SoulX-FlashHead) 等现有能力，回答与声音依赖实际配置的服务。各模型、服务和第三方组件的贡献及许可归其原作者；本项目工作集中在重构工作台、服务适配、配置管理与媒体播放组织。
 
-<p align="center"><sub>CyberVerse · 让交流拥有声音与可见的讲述者。</sub></p>
+<p align="center"><sub>灵影 · 让交流拥有声音与可见的讲述者。</sub></p>
