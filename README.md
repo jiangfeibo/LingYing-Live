@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/live-cover-anime-v2.png" alt="灵影 Live：让回答拥有声音与可见的讲述者，动漫概念封面" width="100%">
+  <img src="assets/vivapersona-live-cover.png" alt="灵影 Live：让回答拥有声音与可见的讲述者，动漫概念封面" width="100%">
 </p>
 
 # 灵影 Live · 数字人交互
@@ -8,7 +8,7 @@
 
 提出一个问题，听见解释，也看见数字人讲述。例如，学习一个新概念时，你可以先问“用生活中的例子解释一下”，阅读回答，再聆听人物讲解；需要换一种说法时，继续在同一工作台追问。
 
-**灵影 Live（LingYing Live）将文字问答、语音与数字人视频连接到同一个对话工作台，让用户围绕角色展开交流。** 项目面向学习问答、知识讲解与虚拟讲述，也覆盖离线数字人视频制作的应用方向。
+**灵影 Live（VivaPersona Live）将文字问答、语音与数字人视频连接到同一个对话工作台，让用户围绕角色展开交流。** 项目面向学习问答、知识讲解与虚拟讲述，也覆盖离线数字人视频制作的应用方向。
 
 <p><a href="#01-先看已有成果">已有成果</a> · <a href="#02-三个核心亮点">核心亮点</a> · <a href="#03-使用场景">使用场景</a> · <a href="#04-从交流到内容制作">视频制作</a></p>
 
@@ -16,8 +16,8 @@
 
 工作台已经组织了文字对话、语音操作与人物观看区域，并接入回答 API、百度语音和已有 Pro 数字人媒体链路。
 
-<p align="center"><img src="assets/06-conversation-preview.png" alt="灵影 Live 工作台：问题、文字解释、语音操作与右侧数字人" width="100%"></p>
-<p align="center"><sub>图 6 · 界面预览，截图中的人物为静态状态。</sub></p>
+<p align="center"><img src="assets/01-conversation-preview.png" alt="灵影 Live 工作台：问题、文字解释、语音操作与右侧数字人" width="100%"></p>
+<p align="center"><sub>图 1 · 界面预览，截图中的人物为静态状态。</sub></p>
 
 ## 02 三个核心亮点
 
@@ -35,14 +35,14 @@
 
 ### 查看角色、声音与模型连接界面
 
-<p align="center"><img src="assets/01-conversation-concept.png" alt="角色选择与新建对话设计" width="100%"></p>
-<p align="center"><sub>图 1 · 新建对话设计图。</sub></p>
+<p align="center"><img src="assets/02-conversation-concept.png" alt="角色选择与新建对话设计" width="100%"></p>
+<p align="center"><sub>图 2 · 新建对话设计图。</sub></p>
 
 <p align="center"><img src="assets/03-avatar-library-concept.png" alt="数字人角色管理设计" width="100%"></p>
 <p align="center"><sub>图 3 · 角色管理设计图，部分声音待接入。</sub></p>
 
-<p align="center"><img src="assets/02-voice-library.png" alt="官方声音、TTS 筛选与试听入口" width="100%"></p>
-<p align="center"><sub>图 2 · 音色库界面预览，克隆声音按实际后端支持接入。</sub></p>
+<p align="center"><img src="assets/04-voice-library.png" alt="官方声音、TTS 筛选与试听入口" width="100%"></p>
+<p align="center"><sub>图 4 · 音色库界面预览，克隆声音按实际后端支持接入。</sub></p>
 
 <p align="center"><img src="assets/05-model-connection-concept.png" alt="模型连接、API 地址与模型选择" width="100%"></p>
 <p align="center"><sub>图 5 · 模型连接设计图。</sub></p>
@@ -83,6 +83,13 @@
 
 除了对话，灵影 Live 还面向数字人视频生成：使用文字或已有录音，选择人物与输出设置，组织一次制作任务。它与侧重完整课程的 [灵影 Studio](https://github.com/jiangfeibo/LingYing-Studio) 分工不同，Live 聚焦人物交互与讲述，Studio 聚焦教学材料、课程编辑与课程交付。
 
-<p align="center"><img src="assets/04-video-production-preview.png" alt="灵影 Live 视频制作流程：文字或音频、角色与输出设置" width="100%"></p>
-<p align="center"><sub>图 4 · 制作流程预览，独立页面尚未完成真实生成接入。</sub></p>
+<p align="center"><img src="assets/06-video-production-preview.png" alt="灵影 Live 视频制作流程：文字或音频、角色与输出设置" width="100%"></p>
+<p align="center"><sub>图 6 · 制作流程预览，独立页面尚未完成真实生成接入。</sub></p>
 
+## 作者信息
+
+**作者：** 毛林祺，[maolinqi@hunnu.edu.cn](mailto:maolinqi@hunnu.edu.cn)，湖南师范大学，计算机技术专业，在读研究生。
+
+**指导老师：** 江沸菠，[jiangfb@hunnu.edu.cn](mailto:jiangfb@hunnu.edu.cn)，湖南师范大学，信息科学与工程学院，副教授。
+
+项目由 [maolinqi](https://github.com/maolinqi) 维护。问题反馈与使用建议可提交到 [GitHub Issues](https://github.com/jiangfeibo/LingYing-Live/issues)。
